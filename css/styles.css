@@ -60,7 +60,32 @@ table {
     height: 400px;
     float: left;
 }
-.second-row > div{
+
+.second-row{
+    height: 400px;
+    float: left;
+}
+.first-col {
+    width: 800px;
+    height: 400px;
+    float: left;
+}
+.first-col > div {
+    border: 1px solid #000;
+    background-color:green;
+    height: 200px;
+
+}
+.second-col {
+    width: 400px;
+    float: left;
+}
+
+.second-col > div {
+    height: 133.33px;
+    border: 1px solid #000;
+    background-color:green;
+
 }
 .third-row {
 }
