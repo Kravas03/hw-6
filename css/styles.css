@@ -48,3 +48,21 @@ table {
 	clear: both;
 }
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.first-row > div{
+    border: 1px solid #000;
+    background-color: blue;
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+.second-row > div{
+}
+.third-row {
+}
+.big-block {
+}
