@@ -51,6 +51,7 @@ table {
 .container {
     width: 1200px;
     margin: 0 auto;
+    font-size: 24px;
 }
 
 .first-row > div{
@@ -63,7 +64,6 @@ table {
 
 .second-row{
     height: 400px;
-    float: left;
 }
 .first-col {
     width: 800px;
@@ -88,6 +88,42 @@ table {
 
 }
 .third-row {
+    height: 400px;
 }
 .big-block {
+    width: 400px;
+    height: 400px;
+    border: 1px solid #000;
+    background-color:orange;
+    float: left;
+}
+.multi-block{
+    width: 800px;
+    float: left;
+}
+.long-block {
+    height: 200px;
+    border: 1px solid #000;
+    background-color:orange;
+}
+.triple-block > div {
+    width: 400px;
+    height: 200px;
+    float: left;
+}
+
+.solo-block {
+    border: 1px solid #000;
+    background-color:orange;
+}
+
+.double-block{
+    width: 400px;
+    float: left;
+}
+.double-block > div {
+    height: 100px;
+    border: 1px solid #000;
+    background-color:orange;
+
 }
